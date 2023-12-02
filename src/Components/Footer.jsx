@@ -8,11 +8,11 @@ function Footer() {
    
     
    
-        <div style={{width:'100%',height:'300px', }} className='d-flex flex-column justify-content-center align-items-center text-white bg-primary'>
+        <div style={{width:'100%',height:'300px', }} className='d-flex flex-column justify-content-center align-items-center text-white bg-dark'>
           <div className="footer-div d-flex justify-content-evenly  w-100 flex-wrap">
             <div className="website" style={{width:'400px'}}>
               <h4><i class="fa-solid fa-truck-fast"></i>{' '}
-              E-cart</h4>
+              Teerex</h4>
               <h6>Designed and built with all the love in the world by the Luminar team with the help of our contributors.</h6>
               <h6>Code Licensed Luminar , docs CCBY 3.0</h6>
               <p className='text-secondary'>Currently v1.0.0.</p>
@@ -46,7 +46,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <p className='text-secondary'>Copyright © 2023 E cart. Built with React.</p>
+          <p className='text-secondary'>Copyright © 2023 Teerex Store. Built with React.</p>
         </div>
     
   )

@@ -44,7 +44,7 @@ function Cart() {
                 <tr key={index}>
                   <td>{index+1}</td>
                   <td>{product.title}</td>
-                  <td><img width={'100px'} height={'100px'} src={product.thumbnail} alt="" /></td>
+                  <td><img width={'100px'} height={'100px'} src={product?.image} alt="" /></td>
                   <td>${product.price}</td>
                   <td> <button onClick={()=>dispatch(removeFromCart(product.id))} className='btn'><i className="fa-solid fa-trash text-danger fa-2x"></i></button></td>
 

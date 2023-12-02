@@ -20,7 +20,7 @@ function Wishlist() {
           wishlistArray.map((product,index)=>(
             <Col key={index} className="mb-5" sm={12} md={6} lg={4} xl={3}>
       <Card className='shadow rounded' style={{ width: '18rem', height:'29rem' }}>
-      <Card.Img height={'200px'} variant="top" src={product?.thumbnail} />
+      <Card.Img height={'200px'} variant="top" src={product?.image} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
